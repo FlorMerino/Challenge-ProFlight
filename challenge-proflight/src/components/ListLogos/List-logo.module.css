@@ -1,0 +1,59 @@
+:root {
+    --colorNotSelect: linear-gradient(233.16deg, #00b0ce47 -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+    --colorSelect: linear-gradient(233.16deg, #00B0CE -47.28%, rgba(0, 176, 206, 0.3) 73.34%);
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.select,
+.notSelect,
+.arrow,
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select,
+.notSelect
+{
+    border-radius: 30px;
+    width: 216.49px;
+    height: 206px;
+}
+.select { 
+    background: var(--colorSelect);
+}
+
+.notSelect {
+    background: var(--colorNotSelect);
+} 
+
+button {
+    cursor: pointer;
+    border-radius: 200px;
+    width: 113px;
+    height: 107.53px;
+    background: var(--colorSelect);
+    mix-blend-mode: normal;
+    border-style: none;
+}
+
+.arrow {
+    position: absolute;
+    width: 48px;
+    height: 61px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
