@@ -1,14 +1,11 @@
+## Ejecucion de Scripts
 
-## Available Scripts
-
-In the project directory, you can run:
+Abrir la terminal del programa a utilizar, ubicarse en el archivo del repositorio y ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
+Ejecuta la aplicación en el modo de desarrollo..\
+Abrir [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
+La página se volverá a cargar cuando realicen cambios.
+También puede ver errores en la consola.
 

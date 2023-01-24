@@ -25,8 +25,7 @@ const allLogos =[
   const [page, setPag] = useState(1);  
 
   let amountOfLogos= allLogos.length;        
-    console.log(page)
-
+    
   const prevHandler = () =>{
     page===1? setPag(amountOfLogos) : setPag(page-1)
   }
